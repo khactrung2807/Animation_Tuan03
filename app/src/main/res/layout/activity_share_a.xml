@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Share_a">
+
+    <ImageView
+        android:id="@+id/img_1_share"
+        android:layout_width="294dp"
+        android:layout_height="291dp"
+        android:layout_marginTop="96dp"
+        android:transitionName="fade"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/lavender" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="331dp"
+        android:layout_height="178dp"
+        android:layout_marginTop="36dp"
+        android:text="The word “carnival” derives from the Latin “carnelevare” meaning “to take out the meat”. The medieval Church banished meat from the table during the whole period of Lent, as it did with sugar, ingredients containing fat, eggs and dairy products."
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.625"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/img_1_share" />
+
+    <Button
+        android:id="@+id/btnBack_1"
+        android:layout_width="338dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="20dp"
+        android:text="Back"
+        app:backgroundTint="#F18332"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView10"
+        app:layout_constraintVertical_bias="0.688" />
+</androidx.constraintlayout.widget.ConstraintLayout>
